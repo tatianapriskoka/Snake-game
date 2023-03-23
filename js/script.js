@@ -2,13 +2,13 @@ const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
 
 const ground = new Image();
-ground.src = '/img/ground2_mod2.png';
+ground.src = './img/ground2_mod2.png';
 
 
 
 
 const foodImg = new Image();
-foodImg.src = '/img/iconfrog.png';
+foodImg.src = './img/iconfrog.png';
 
 let box = 32;
 
